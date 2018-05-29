@@ -1,0 +1,151 @@
+
+// Bootstrap
+//@import '~bootstrap-less/bootstrap/bootstrap';
+//@import "~bootstrap/less/bootstrap";
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+.chat {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chat li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li .chat-body p {
+  margin: 0;
+  color: #777777;
+}
+
+.panel-body {
+  overflow-y: scroll;
+  height: 350px;
+  padding: 8px;
+}
+
+.live-chat {
+  position: fixed;
+  bottom: 2px;
+  left: 78%;
+  right: 20%;
+  width: 300px;
+}
+
+.live-chat a {
+  text-decoration: none;
+}
+
+.end-chat{
+  margin-left: 35%;
+  margin-right: 35%;
+
+}
+.chat-window {
+  position: fixed;
+  float: right;
+  bottom: 10px;
+  height: auto;
+  display: block;
+}
+
+.thanks {
+  visibility: hidden;
+  padding: 5%;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+.chat-ended {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  visibility: hidden;
+}
+
+.start {
+  margin: 20%;
+  border: 1px solid #f0ad4e;
+  text-align: center;
+  color: #f0ad4e;
+  letter-spacing: 1px;
+}
+
+#headingOne {
+
+}
+
+.glyphicon-user {
+  border: thin solid #c6c0c3;
+  border-radius: 18px;
+  padding: 6px;
+  background: #c6c0c3;
+}
+
+.msg {
+
+  margin: 6px;
+  padding: 6px;
+  width: auto;
+  white-space: nowrap;
+}
+
+.msg p {
+  border: thin solid lightblue;
+  display:inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border-top-left-radius: 1px;
+  background: lightblue;
+}
+
+.logout {
+  position: fixed;
+  left: 93%;
+}
+
+.buttons {
+  margin-left: 22%;
+  margin-right: 22%;
+}
+.me {
+  color: #337ab7;
+}
+
+.cross {
+  float: right;
+}
+
+.me p{
+  color: #337ab7;
+  border: thin solid #e8e8e8;
+  display:inline-block;
+  margin: 10px;
+  padding: 6px;
+  border-radius: 8px;
+  border-top-left-radius: 1px;
+  background: #e8e8e8;
+
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}

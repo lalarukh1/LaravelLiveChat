@@ -1,0 +1,42 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.18",
+        "babel-preset-stage-2": "^6.24.1",
+        "bootstrap": "^4.1.1",
+        "cross-env": "^5.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.0",
+        "less": "^3.0.4",
+        "less-loader": "^4.1.0",
+        "lodash": "^4.17.4",
+        "popper.js": "^1.12",
+        "tailwindcss": "^0.5.3",
+        "vue": "^2.5.7"
+    },
+    "dependencies": {
+        "animate.css": "^3.6.1",
+        "bootstrap-auto-dismiss-alert": "^1.0.2",
+        "bootstrap-less": "^3.3.8",
+        "bootstrap-vue": "^2.0.0-rc.10",
+        "emoji-mart-vue": "^2.5.3",
+        "emoji-picker": "0.0.7",
+        "emoji-vue": "^0.2.3",
+        "laravel-echo": "^1.3.5",
+        "moment": "^2.22.1",
+        "pusher-js": "^4.2.2",
+        "vue-carousel-3d": "^0.1.20",
+        "vue-moment": "^4.0.0-0",
+        "vue-strap": "^1.1.40",
+        "vue-typer": "^1.2.0"
+    }
+}
